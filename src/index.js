@@ -45,7 +45,13 @@ window.addEventListener('load', (event) => {
   document.querySelectorAll('.card').forEach((card) => {
     card.addEventListener('click', () => {
       // TODO: write some code here
-      console.log(`Card clicked: ${card}`);
+      //console.log(`Card clicked: ${card}`);
+
+      card.classList.add('turned');
+// if it doesn't have the class 'foobar' --> add the class 'foobar'
+// if it already has the class 'foobar' --> remove the class 'foobar'
+
+
     });
   });
 });
